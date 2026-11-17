@@ -1,0 +1,27 @@
+artifact_path: mlflow-artifacts:/1/models/m-fd13b3c857c64878ba1d7f0c65f5a64d/artifacts
+flavors:
+  python_function:
+    cloudpickle_version: 3.1.2
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.14.2
+    streamable: false
+is_signature_from_type_hint: false
+mlflow_version: 3.18.0
+model_id: m-fd13b3c857c64878ba1d7f0c65f5a64d
+model_size_bytes: 3340
+model_uuid: m-fd13b3c857c64878ba1d7f0c65f5a64d
+prompts: null
+run_id: 9e3ee67cce014f23b6f99cd99dbeccc8
+signature:
+  inputs: '[{"type": "string", "name": "text", "required": true}]'
+  outputs: '[{"type": "string", "name": "text", "required": true}, {"type": "string",
+    "name": "prediction", "required": true}, {"type": "double", "name": "score", "required":
+    true}, {"type": "string", "name": "hf_model_id", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-17 14:17:23.836196'
