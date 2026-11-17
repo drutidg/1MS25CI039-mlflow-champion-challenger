@@ -1,0 +1,8 @@
+id,text,reference,pred_A,pred_B,who_is_correct,my_comment
+6,the film tunes into a grief that could lead a man across centuries .,POSITIVE,NEGATIVE,POSITIVE,B,"Sentence mentions grief, a sad word, but the overall tone is admiring. A was misled by the negative word, B understood the context and was correct."
+18,true tale of courage -- and complicity -- at auschwitz is a harrowing drama that tries to tell of the unspeakable .,POSITIVE,NEGATIVE,POSITIVE,B,"Mixed tone: courage and a harrowing drama about the unspeakable. Serious dark topic but a positive review. B was correct, A reacted to the dark words."
+35,i 'll bet the video game is a lot more fun than the film .,NEGATIVE,POSITIVE,NEGATIVE,B,"Comparison sentence: the video game is more fun than the film. Praise for one thing and criticism for the other, which confused A. B was correct."
+42,"the longer the movie goes , the worse it gets , but it 's actually pretty good in the first few minutes .",NEGATIVE,POSITIVE,NEGATIVE,B,"Mixed sentiment: the movie gets worse but the first few minutes are good. The models weighted the two parts differently. B was correct."
+61,"mcconaughey 's fun to watch , the dragons are okay , not much fire in the script .",POSITIVE,POSITIVE,NEGATIVE,A,"Mixed sentiment: fun to watch but not much fire in the script. Reference is NEGATIVE and A was correct. B was swayed by the positive start."
+69,the iditarod lasts for days - this just felt like it did .,NEGATIVE,NEGATIVE,POSITIVE,A,
+95,"/ but daphne , you 're too buff / fred thinks he 's tough / and velma - wow , you 've lost weight !",NEGATIVE,NEGATIVE,POSITIVE,A,
