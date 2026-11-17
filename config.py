@@ -11,8 +11,7 @@ OUTPUT_DIR = BASE_DIR / "outputs"
 EVAL_CSV = DATA_DIR / "eval_inputs.csv"
 NEW_DATA_CSV = DATA_DIR / "new_data.csv"
 
-# ---- you ----
-STUDENT_USN = "1MS25CI039"          # <-- CHANGE THIS
+STUDENT_USN = "1MS25CI039"          
 
 # ---- MLflow names ----
 TRACKING_URI = "http://127.0.0.1:5000"
